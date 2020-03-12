@@ -67,5 +67,5 @@ class InstagramBot:
                 print(e)
                 time.sleep(5)
 
-javiBot = InstagramBot('Login','Senha')
+javiBot = InstagramBot('seu_login','sua_senha')
 javiBot.login()
