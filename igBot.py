@@ -17,7 +17,7 @@ class InstagramBot:
         '''
         botao_login = driver.find_element_by_xpath("//a[@href='/accounts/login/?source=auth_switcher']")
         botao_login.click()
-        '''
+        ''' 
         campo_usuario = driver.find_element_by_xpath("//input[@name='username']")
         campo_usuario.click()
         campo_usuario.clear()
